@@ -1,4 +1,4 @@
-/* color palette from <https://github.com/vuejs/theme> */
+color palette from <https://github.com/vuejs/theme>
 :root {
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
@@ -59,7 +59,9 @@
 }
 
 body {
-  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  width: 100vh;
   color: var(--color-text);
   background: var(--color-background);
   transition:

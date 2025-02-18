@@ -1,9 +1,9 @@
 <script setup>
-import Home from '@/components/Home.vue';
+import Inbox1 from '@/components/Inbox1.vue';
 </script>
 
 <template>
   <main style="padding-top: 50px;">
-    <Home />
+    <Inbox1 />
   </main>
 </template>
