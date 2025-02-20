@@ -25,7 +25,7 @@
       <RouterLink to="/portal">Portal</RouterLink>
     </div>
 
-
+    <!-- testing again here for the personal access token in GitLabs -->
     <div class="iconlink">
       <div>
         <font-awesome-icon :icon="['fas', 'suitcase']" />
