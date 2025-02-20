@@ -1,8 +1,8 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import TopBar from './components/TopBar.vue';
+import TopBar from "./components/ComponentSections/TopBar.vue"
 // import MiddleSection from './components/MiddleSection.vue';
-import BottomSection from './components/BottomSection.vue';
+import BottomSection from "./components/ComponentSections/BottomSection.vue"
 </script>
 
 <template>

@@ -1,9 +1,9 @@
 <script setup>
-import Inbox1 from '@/components/Inbox1.vue';
+import Office from '@/components/Office.vue';
 </script>
 
 <template>
   <main style="padding-top: 50px;">
-    <Inbox1 />
+    <Office />
   </main>
 </template>
