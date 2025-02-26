@@ -10,15 +10,34 @@ import router from './router'
 import { library } from '@fortawesome/fontawesome-svg-core'
 
 // 🔥 Import Specific Icons You Need
-import { faSearch, faHouse, faSuitcase, faGlobe } from '@fortawesome/free-solid-svg-icons'
+import { faSearch, faHouse, faSuitcase, faGlobe, faPhone } from '@fortawesome/free-solid-svg-icons'
 
-import { faComment, faNewspaper, faBell } from '@fortawesome/free-regular-svg-icons'
+import {
+  faComment,
+  faNewspaper,
+  faBell,
+  faBookmark,
+  faPenToSquare,
+  faIdBadge,
+} from '@fortawesome/free-regular-svg-icons'
 
 // 🔥 Import FontAwesome Vue Component
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 // ✅ Add icons to the library
-library.add(faSearch, faHouse, faNewspaper, faComment, faSuitcase, faGlobe, faBell)
+library.add(
+  faSearch,
+  faHouse,
+  faNewspaper,
+  faComment,
+  faSuitcase,
+  faGlobe,
+  faBell,
+  faBookmark,
+  faPenToSquare,
+  faIdBadge,
+  faPhone,
+)
 
 const app = createApp(App)
 

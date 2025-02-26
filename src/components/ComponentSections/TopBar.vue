@@ -27,32 +27,4 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
   top: 0;
   left: 0;
 }
-
-.content {
-  display: flex;
-  flex-direction: row;
-  flex-shrink: 0;
-  justify-content: space-between;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  /* Soft bottom shadow */
-  padding: 15px 15px;
-  top: 0;
-  left: 0;
-  position: fixed;
-  width: 100vw;
-}
-
-
-.logo {
-  display: flex;
-}
-
-.logo img {
-  height: 30px;
-  /* Set the same height as text */
-  width: auto;
-  /* Maintain aspect ratio */
-  /* object-fit: cover; */
-  /* Prevent distortion */
-}
 </style>

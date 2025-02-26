@@ -2,45 +2,55 @@
   <div class="bottom-nav">
 
     <div class="iconlink">
-      <div>
-        <font-awesome-icon :icon="['far', 'newspaper']" />
-      </div>
-      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/">
+        <div>
+          <font-awesome-icon :icon="['far', 'newspaper']" />
+        </div>
+        Home
+      </RouterLink>
     </div>
 
 
     <div class="iconlink">
-      <div>
-        <font-awesome-icon :icon="['far', 'comment']" />
-      </div>
-      <RouterLink to="/chat">Chat</RouterLink>
+      <RouterLink to="/chat">
+        <div>
+          <font-awesome-icon :icon="['far', 'comment']" />
+        </div>
+        Chat
+      </RouterLink>
     </div>
 
 
     <div class="iconlink">
-      <div>
-        <font-awesome-icon :icon="['fas', 'globe']" />
-      </div>
+      <RouterLink to="/portal">
+        <div>
+          <font-awesome-icon :icon="['fas', 'globe']" />
+        </div>
 
-      <RouterLink to="/portal">Portal</RouterLink>
+        Portal
+      </RouterLink>
     </div>
 
     <!-- testing again here for the personal access token in GitLabs -->
     <div class="iconlink">
-      <div>
-        <font-awesome-icon :icon="['fas', 'suitcase']" />
-      </div>
+      <RouterLink to="/office">
+        <div>
+          <font-awesome-icon :icon="['fas', 'suitcase']" />
+        </div>
 
-      <RouterLink to="/office">Office</RouterLink>
+        Office
+      </RouterLink>
     </div>
 
 
     <div class="iconlink">
-      <div>
-        <font-awesome-icon :icon="['far', 'bell']" />
-      </div>
+      <RouterLink to="/noti">
+        <div>
+          <font-awesome-icon :icon="['far', 'bell']" />
+        </div>
 
-      <RouterLink to="/noti">Noti</RouterLink>
+        Noti
+      </RouterLink>
     </div>
 
 
@@ -65,11 +75,12 @@
   align-items: center;
   /* Centers items vertically */
   text-align: center;
+  color: grey;
 }
 
 svg {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
 }
 
 a {

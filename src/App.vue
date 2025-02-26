@@ -8,7 +8,7 @@ import BottomSection from "./components/ComponentSections/BottomSection.vue"
 <template>
 
   <div class="main">
-    <TopBar />
+    <!-- <TopBar /> -->
     <div>
       <RouterView />
       <BottomSection />
