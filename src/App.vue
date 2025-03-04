@@ -26,6 +26,7 @@ import BottomSection from "./components/ComponentSections/BottomSection.vue"
 .main {
   width: 100vw;
   display: flex;
+  padding: 0px;
   flex-direction: column;
   justify-content: center;
 }

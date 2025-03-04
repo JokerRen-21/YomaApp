@@ -1,13 +1,13 @@
 <script setup>
-import BottomBar4 from './BottomBarComponents/BottomBar4.vue';
+import Profilecomp from './BottomBarComponents/Profilecomp.vue';
 
 // const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 </script>
 
 <template>
   <div class="main">
-    <BottomBar4 />
-    This here will be the Office Page
+    <Profilecomp />
+
   </div>
 </template>
 <!-- do remind youself that the components, router, and views are the important one here -->
@@ -18,6 +18,6 @@ import BottomBar4 from './BottomBarComponents/BottomBar4.vue';
   text-align: center;
   flex-direction: column;
   gap: 20px;
-  padding: 15px 10px;
+  padding: 15px 10px 80px;
 }
 </style>

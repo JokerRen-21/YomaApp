@@ -65,18 +65,41 @@
   left: 0;
   width: 100%;
   background: white;
-  /* Optional: set a background */
   box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
-  /* Soft shadow at the top */
-  padding: 12px 6px;
   display: flex;
   justify-content: space-around;
-  /* Even spacing */
   align-items: center;
-  /* Centers items vertically */
   text-align: center;
   color: grey;
+  transition: color 0.4s ease;
 }
+
+.bottom-nav a {
+  padding: 12px 5px;
+  /* Apply padding uniformly */
+  text-decoration: none;
+  /* Remove underline */
+  color: grey;
+  /* Default grey color */
+  transition: color 0.5s ease-in-out;
+  /* Only animate color */
+}
+
+/* Active link color change without affecting padding */
+.bottom-nav a.router-link-active {
+  color: blue;
+  /* Change color when active */
+}
+
+/* Smooth transition only for color change */
+.bottom-nav a.router-link-active {
+  color: blue;
+  transition: color 0.5s ease-in-out;
+  /* Only animate color */
+}
+
+
+
 
 svg {
   width: 20px;

@@ -24,16 +24,20 @@ import Office from '@/components/Office.vue';
 .content {
   display: flex;
   flex-direction: row;
-  flex-shrink: 0;
   justify-content: space-between;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   /* Soft bottom shadow */
   padding: 15px 15px;
+  position: fixed;
+  /* Keeps it on top during scroll */
   top: 0;
   left: 0;
-  position: fixed;
   width: 100vw;
   font-size: large;
+  z-index: 999;
+  /* High z-index to stay on top */
+  background: white;
+  /* SOLID background prevents transparency */
 }
 
 .icon {
